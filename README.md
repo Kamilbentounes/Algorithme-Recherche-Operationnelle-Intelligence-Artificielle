@@ -99,3 +99,43 @@ Son heuristique est légèrement plus précise que son homologue de ***Manhattan
 #### Code
 
 [Ici](https://github.com/Kamilbentounes/Algorithme-Recherche-Operationnelle-Intelligence-Artificielle/blob/master/Scripts-Codes/Astar.m), vous trouverez l'implémentation de A star avec la distance Euclidienne, sous Matlab.
+
+## Utilisation
+
+Pour pouvoir utiliser ce projet, il faut installer prélabalement Matlab (pour ce faire, une licence est requise). Cependant, aucune installation de bibliothèque n'est requise.
+
+## Fonctions fournies
+
+Vous trouvez différentes fonctions pour créer le scénario et afficher le chemin estimé avec les algorithmes de recherche (aucune modification n'est nécessaire, lancez juste le script [searchalgorithm](https://github.com/Kamilbentounes/Algorithme-Recherche-Operationnelle-Intelligence-Artificielle/blob/master/Scripts-Codes/Searchalgorithm.m). Si besoin, et si vous le souhaitez, vous êtes libre d'ajouter quelques fonctionnalités):
+
+* [CreateScenario](https://github.com/Kamilbentounes/Algorithme-Recherche-Operationnelle-Intelligence-Artificielle/blob/master/Scripts-Codes/CreateScenario.m) et [DisplayScenario](https://github.com/Kamilbentounes/Algorithme-Recherche-Operationnelle-Intelligence-Artificielle/blob/master/Scripts-Codes/DisplayScenario.m) : Créez le scénario sous forme de carte.Nous sélectionnons d'abord le nœud **TARGET**, puis les **Obstacles** (suivez les instructions) et finement le nœud **START**.
+
+* [AnimatePath](https://github.com/Kamilbentounes/Algorithme-Recherche-Operationnelle-Intelligence-Artificielle/blob/master/Scripts-Codes/AnimatePath.m): affiche le chemin fondé sur le scénario
+
+* [Matrix2List](https://github.com/Kamilbentounes/Algorithme-Recherche-Operationnelle-Intelligence-Artificielle/blob/master/Scripts-Codes/Matrix2List.m): convertit une matrice d'incidents en liste d'incidents
+
+* [IncidentMatrix](https://github.com/Kamilbentounes/Algorithme-Recherche-Operationnelle-Intelligence-Artificielle/blob/master/Scripts-Codes/IncidentMatrix.m): Cette fonction crée la matrice d'incident basée sur le scneario défini sur l'interface graphique du script de formulaire main.m
+
+* [IncidentList](https://github.com/Kamilbentounes/Algorithme-Recherche-Operationnelle-Intelligence-Artificielle/blob/master/Scripts-Codes/IncidentList.m): Cette fonction crée la liste des incidents basée sur le scénario défini sur l'interface graphique du script de formulaire main.m
+
+* [IncidentMatrix2](https://github.com/Kamilbentounes/Algorithme-Recherche-Operationnelle-Intelligence-Artificielle/blob/master/Scripts-Codes/IncidentMatrix2.m), [IncidentList2](https://github.com/Kamilbentounes/Algorithme-Recherche-Operationnelle-Intelligence-Artificielle/blob/master/Scripts-Codes/IncidentList2.m): mêmes fonctions que ci-dessus mais utilise des coûts irréguliers, vérifiez update_nodes .
+
+## Exécution et Test
+
+Dans la figure ci-dessous, vous trouvez un exemple des différents algorithmes: BFS, DFS et A* (distance euclidienne, distance de Manhattan et coûts variables) en lançant le script [searchalgorithm](https://github.com/Kamilbentounes/Algorithme-Recherche-Operationnelle-Intelligence-Artificielle/blob/master/Scripts-Codes/Searchalgorithm.m)..
+
+Testez le code avec vos propres positions des nœuds: target, Start et obsctacles.
+
+![](Images/test.PNG)
+
+## Auteur
+
+Kamil BENTOUNES
+
+* [Profil LinkedIn](https://www.linkedin.com/in/kamil-bentounes-802485165/).
+* [Profil Github](https://github.com/Kamilbentounes).
+
+## Références
+
+* Wiképédia
+* [Cours Université de Bucharest](http://turing.cs.pub.ro/auf2/html/chapters/chapter3/chapter_3_2_1.html)
