@@ -32,7 +32,7 @@ Les nœuds déjà visités sont marqués afin d'éviter qu'un même nœud soit e
 
 Sur le graphe suivant, cet algorithme va alors fonctionner ainsi :
 
-![](images/BFS.gif)
+![](Images/BFS.gif)
 
 Il explore dans l'ordre les sommets A, B, C, E, D, F, G.
 
@@ -52,7 +52,7 @@ On notera qu'il est possible de l'implémenter itérativement à l'aide d'une pi
 
 Voici un exemple de parcours en profondeur:
 
-![](images/DFS.gif)
+![](Images/DFS.gif)
 
 #### Code
 
