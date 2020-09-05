@@ -2,11 +2,11 @@
 
 La recherche opérationnelle est parmi les problématiques les plus répondues en IA classique. Dans ce projet, vous trouverez différentes implémentation des 3 algorithmes de recherche suivants: 
 
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. [Algorithmes non-informés]()
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.A. [Breadth-First Search (BFS) - Recherche en largeur]()
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.B. [Depth-First Search (DFS) - Recherche en profondeur]()
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. [Algorithmes informés]()
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.A. [A star]()
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. [Algorithmes non-informés](https://github.com/Kamilbentounes/Algorithme-Recherche-Operationnelle-Intelligence-Artificielle#1-algorithmes-non-inform%C3%A9s-1)
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.A. [Breadth-First Search (BFS) - Recherche en largeur](https://github.com/Kamilbentounes/Algorithme-Recherche-Operationnelle-Intelligence-Artificielle#1a-breadth-first-search-bfs---recherche-en-largeur)
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.B. [Depth-First Search (DFS) - Recherche en profondeur](https://github.com/Kamilbentounes/Algorithme-Recherche-Operationnelle-Intelligence-Artificielle#1b-depth-first-search-dfs---recherche-en-profondeur)
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. [Algorithmes informés](https://github.com/Kamilbentounes/Algorithme-Recherche-Operationnelle-Intelligence-Artificielle#2-algorithmes-inform%C3%A9s)
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.A. [A star](https://github.com/Kamilbentounes/Algorithme-Recherche-Operationnelle-Intelligence-Artificielle#2a-a-star)
 
 ## 1. Algorithmes non-informés
 
@@ -35,6 +35,10 @@ Sur le graphe suivant, cet algorithme va alors fonctionner ainsi :
 ![](Images/BFS.gif)
 
 Il explore dans l'ordre les sommets A, B, C, E, D, F, G.
+]Ici (https://github.com/Kamilbentounes/Algorithme-Recherche-Operationnelle-Intelligence-Artificielle/blob/master/Scripts-Codes/BFS.m)
+#### Code
+
+[Ici](https://github.com/Kamilbentounes/Algorithme-Recherche-Operationnelle-Intelligence-Artificielle/blob/master/Scripts-Codes/BFS.m), vous trouverez le script en Matlab de l'implémentation de l'algorithme BFS.
 
 ### 1.B. Depth-First Search (DFS) - Recherche en profondeur
 
@@ -56,7 +60,7 @@ Voici un exemple de parcours en profondeur:
 
 #### Code
 
-
+[Ici](https://github.com/Kamilbentounes/Algorithme-Recherche-Operationnelle-Intelligence-Artificielle/blob/master/Scripts-Codes/DFS.m), vous trouverez le script en Matlab de l'implémentation de l'algorithme DFS.
 
 ## 2. Algorithmes informés 
 
