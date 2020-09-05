@@ -35,7 +35,7 @@ Sur le graphe suivant, cet algorithme va alors fonctionner ainsi :
 ![](Images/BFS.gif)
 
 Il explore dans l'ordre les sommets A, B, C, E, D, F, G.
-]Ici (https://github.com/Kamilbentounes/Algorithme-Recherche-Operationnelle-Intelligence-Artificielle/blob/master/Scripts-Codes/BFS.m)
+
 #### Code
 
 [Ici](https://github.com/Kamilbentounes/Algorithme-Recherche-Operationnelle-Intelligence-Artificielle/blob/master/Scripts-Codes/BFS.m), vous trouverez le script en Matlab de l'implémentation de l'algorithme BFS.
@@ -83,3 +83,19 @@ Après, l'évaluation de la distance du nouveau nœud au nœud d'arrivée est aj
 Une fois les trois étapes ci-dessus réalisées pour chaque nouveau nœud contigu, le nœud original pris de la file d'attente prioritaire est ajouté à la liste des nœuds vérifiés. Le prochain nœud est alors retiré de la file d'attente prioritaire et le processus recommence.
 
 Les deux structures open list et closed list ne sont pas nécessaires si on peut garantir que le premier chemin produit à n'importe quel nœud est le plus court. Cette situation surgit si l'heuristique est non seulement admissible mais aussi « monotone », signifiant que la différence entre l'heuristique de deux nœuds quelconques reliés ne surestime pas la distance réelle entre ces nœuds. Ce n'est possible que dans de très rares cas.
+
+### L'Heuristique de Distance de Manhattan : 
+
+Cette méthode de calcul est appelée la distance de Manhattan car elle est évaluée en calculant le nombre total de carrés déplacés horizontalement et verticalement pour atteindre le carré cible à partir du carré actuel. Nous ignorons les mouvements diagonaux et tous les obstacles qui pourraient être sur le chemin.
+
+#### Code
+
+[Ici](https://github.com/Kamilbentounes/Algorithme-Recherche-Operationnelle-Intelligence-Artificielle/blob/master/Scripts-Codes/AstarMan.m), vous trouverez l'implémentation de A star avec la distance de Manhattan, sous Matlab.
+
+### L'heuristique de Distance Euclidienne : 
+
+Son heuristique est légèrement plus précise que son homologue de ***Manhattan***. Si nous essayons d'exécuter les deux simultanément sur le même labyrinthe, le chercheur de chemin Euclidien favorise un chemin le long d'une ligne droite. C'est plus précis mais c'est aussi plus lent car il faut explorer une zone plus grande pour trouver le chemin. 
+
+#### Code
+
+[Ici](https://github.com/Kamilbentounes/Algorithme-Recherche-Operationnelle-Intelligence-Artificielle/blob/master/Scripts-Codes/Astar.m), vous trouverez l'implémentation de A star avec la distance Euclidienne, sous Matlab.
